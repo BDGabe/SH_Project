@@ -1,0 +1,9 @@
+{
+  "name": "sh_garbage-guys",
+  "version": "0.0.0",
+  "description": "SH_GarbageGuys",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
