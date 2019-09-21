@@ -1,3 +1,6 @@
 C:\Users\gabri\Source\Repos\SH_GarbageGuys\SH_GarbageGuys\obj\Debug\SH_GarbageGuys.njsprojAssemblyReference.cache
 C:\Users\gabri\Source\Repos\SH_GarbageGuys\SH_GarbageGuys\obj\Debug\SH_GarbageGuys.njsproj.CoreCompileInputs.cache
 C:\Users\gabri\Source\Repos\SH_GarbageGuys\SH_GarbageGuys\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\gabri\Source\Repos\SH_Project\SH_GarbageGuys\obj\Debug\SH_GarbageGuys.njsprojAssemblyReference.cache
+C:\Users\gabri\Source\Repos\SH_Project\SH_GarbageGuys\obj\Debug\SH_GarbageGuys.njsproj.CoreCompileInputs.cache
+C:\Users\gabri\Source\Repos\SH_Project\SH_GarbageGuys\bin\Microsoft.NodejsTools.WebRole.dll
