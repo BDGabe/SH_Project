@@ -3,3 +3,33 @@
     height: 400px; /* The height is 400 pixels */
     width: 100%; /* The width is the width of the web page */
 }
+
+.button {
+    background-color: cadetblue;
+    color: navajowhite;
+    padding: 7.5px 20px;
+    text-align: center;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 4px #999;
+}
+
+.button:hover {
+    background-color: darkslateblue;
+}
+
+.button:active {
+    background-color: darkblue;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px)
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
