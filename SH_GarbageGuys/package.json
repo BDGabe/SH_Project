@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "description": "SH_GarbageGuys",
   "main": "server.js",
-  "author": {
-    "name": ""
+  "author": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
