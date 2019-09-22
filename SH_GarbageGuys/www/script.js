@@ -41,7 +41,7 @@ function initMap() {
         map.addListener('click', function (e) {
             placeMarkerAndPanTo(e.latLng, map);
         });
-
+        //
         var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
         // Add some markers to the map.
