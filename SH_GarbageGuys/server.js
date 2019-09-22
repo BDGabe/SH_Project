@@ -3,7 +3,7 @@ var express = require('express');
 var app = express()
 
 app.use(express.static('www'));
-
+/*
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
@@ -20,10 +20,10 @@ connection.connect(function (error) {
     }
 })
 
-app.get
+app.get*/
 
 var server = app.listen(8000, function () {
-    connection.query("SELECT * FROM SHGG:test:1", function (error, rows, fields) { });
+    //connection.query("SELECT * FROM SHGG:test:1", function (error, rows, fields) { });
 
     var host = server.address().address
     var port = server.address().port
