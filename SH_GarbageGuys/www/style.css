@@ -76,7 +76,7 @@ img.center {
 
 body 
 {
-    color: gainsboro;
+    color: darkslategrey;
     font-family: Arial;
     -webkit-animation-direction: alternate-reverse;
     animation: myfirst 10s infinite;
@@ -89,7 +89,6 @@ body
 @keyframes myfirst {
     0% {
         background-color: #043087;
-        margin-bottom: 50px;
     }
     100% {
         background-color: #2e74ff;
