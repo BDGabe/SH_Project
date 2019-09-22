@@ -76,7 +76,7 @@ img.center {
 
 body 
 {
-    color: darkslategrey;
+    color: black;
     font-family: Arial;
     -webkit-animation-direction: alternate-reverse;
     animation: myfirst 10s infinite;
