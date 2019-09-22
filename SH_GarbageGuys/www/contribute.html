@@ -1,27 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="style.css">
-    <link rel=icon href=/recycleFav.png>
-    <title>GarbageGuys</title>
+    <meta charset="utf-8">
+    <title>Marker Clustering</title>
 </head>
 <body>
     <script type="text/javascript" src="script.js"></script>
-    <h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
-    <!--
-    <div id="floating-panel">
-        <input id="address" type="text" value="">
-        <input id="submit" type="button" value="Geocode">
-    </div>
-    -->
     <div id="map"></div>
-
-    <!--Load the API from the specified URL
-    * The async attribute allows the browser to render the page while the API loads
-    * The key parameter will contain your own API key (which is not needed for this tutorial)
-    * The callback parameter executes the initMap() function
-    -->
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_XBlKM325q6mbo9_IJ1ORWnk6DQhBrFE&callback=initMap">
     </script>
