@@ -37,12 +37,11 @@ function initMap() {
         center: location
     });
 
-    if (document.getElementById('check')) {
-        map.addListener('click', function (e) {
-            placeMarkerAndPanTo(e.latLng, map);
-        });
+    map.addListener('click', function (e) {
+        placeMarkerAndPanTo(e.latLng, map);
+    });
 
-        var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
         // Add some markers to the map.
         // Note: The code uses the JavaScript Array.prototype.map() method to
