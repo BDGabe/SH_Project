@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+#ThankYou {
+    margin-top: 10px;
+    text-align: center;
+}
+
 .button {
     background-color: cadetblue;
     color: navajowhite;
@@ -57,7 +62,7 @@ a:hover {
 
 
 .card-button {
-
+    text-shadow: 2px 2px 4px #000000, 0px 0px 4px #000000;
     font: var(--sub-heading);
     font-size: 2em;
     color: #2395BF;
@@ -71,14 +76,13 @@ img.center {
 body 
 {
     color: gainsboro;
-    text-shadow: 2px 2px 4px #000000, 0px 0px 4px #000000;
     font-family: Arial;
     -webkit-animation-direction: alternate-reverse;
     animation: myfirst 10s infinite;
     animation-direction: alternate;
     background-image: url('https://i.imgur.com/4aejBOF.png');
     background-repeat: no-repeat;
-    background-position: center 350px;
+    background-position: center 335px;
 }
 
 @keyframes myfirst {
