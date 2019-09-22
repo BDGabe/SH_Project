@@ -58,6 +58,11 @@ function initMap() {
     var markerCluster = new MarkerClusterer(map, markers,
         { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' }); //Do not fix
 }
+function clicked() {
+    var latid = markers[0].getPosition().lat();
+    var long = markers[0].getPosition().lng();
+    locations.push({ lat: latid, lng: long });
+}
 
 function setMapOnAll(map) {
     for (var i = 0; i < markers.length; i++)
