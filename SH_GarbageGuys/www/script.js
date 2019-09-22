@@ -24,7 +24,7 @@ var locations = [
     { lat: 29, lng: -81 },
     { lat: 23, lng: -78 }
 ]
-
+//
 // Initialize and add the map
 function initMap() {
     var image = {
