@@ -27,6 +27,10 @@ var locations = [
 
 // Initialize and add the map
 function initMap() {
+    var image = {
+        url: "./recycleFav.png",
+        scaledSize: new google.maps.Size(25, 25)
+    };
     var location = { lat: 25.7574, lng: -80.3733 };
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 12,
@@ -46,7 +50,8 @@ function initMap() {
     var markers = locations.map(function (location, i) {
         return new google.maps.Marker({
             position: location,
-            label: labels[i % labels.length]
+            label: labels[i % labels.length],
+            icon: image
         });
     });
 
