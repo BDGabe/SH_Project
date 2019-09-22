@@ -14,8 +14,13 @@
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_XBlKM325q6mbo9_IJ1ORWnk6DQhBrFE&callback=initMap">
     </script>
-    <div>
-        <input type="button" class="button" value="save" onclick="clicked()"/>
+    <div id="contribute">
+        <input type="button" class="button" value="Save" onclick="clicked()"/>
+        <input type="text" class="textbox" placeholder="Enter Contribution Amount ($)"/>
+        <input type="button" class="button" value="Enter" onclick="pay()"/>
+    </div>
+    <div id="ThankYou">
+        <!--Thank you message here-->
     </div>
 </body>
 </html>

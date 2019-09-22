@@ -4,6 +4,11 @@
     width: 100%; /* The width is the width of the web page */
 }
 
+#contribute{
+    margin-top: 10px;
+    text-align: center;
+}
+
 .button {
     background-color: cadetblue;
     color: navajowhite;
@@ -22,6 +27,14 @@
     background-color: darkblue;
     box-shadow: 0 2px #666;
     transform: translateY(2px)
+}
+
+.text {
+    padding: 7.5px 20px;
+    text-align: center;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 4px #999;
 }
 
 /* Optional: Makes the sample page fill the window. */
@@ -65,14 +78,15 @@ body
     animation-direction: alternate;
     background-image: url('https://i.imgur.com/4aejBOF.png');
     background-repeat: no-repeat;
-    background-position: center 300px;
+    background-position: center 350px;
 }
 
 @keyframes myfirst {
     0% {
         background-color: #043087;
+        margin-bottom: 50px;
     }
     100% {
-        background-color: ##2e74ff;
+        background-color: #2e74ff;
     }
 }

@@ -108,3 +108,8 @@ function placeMarkerAndPanTo(latLng, map) {
     markers.push(marker);
     map.panTo(latLng);
 }
+
+function pay()
+{
+    document.getElementById('ThankYou').innerHTML = 'Thank you for the contribution!';
+}
