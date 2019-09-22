@@ -15,6 +15,7 @@
 }
 
 .button {
+    margin-top: 25px;
     background-color: cadetblue;
     color: navajowhite;
     padding: 7.5px 20px;

@@ -1,13 +1,13 @@
 var express = require('express');
 //var mysql = require('mysql');   
 var app = express()
-
+    
 app.use(express.static('www'));
 /*
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Lopez4464',
+    password: '',
     database: 'SHGG:test:1' 
 })
 
